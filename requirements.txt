@@ -1,0 +1,4 @@
+scrapy 
+matplotlib 
+seaborn 
+pinecone 
