@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Image Upload Interface</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Image Upload Interface</h1>
+        <form id="product-image-upload-form" enctype="multipart/form-data">
+            <label for="product-image">Upload your product image:</label>
+            <input type="file" id="product-image" name="product-image" accept="image/*" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="product-image-response">
+            <!-- Identified product description and related products will be displayed here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Query Interface</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Query Interface</h1>
+        <form id="image-query-form" enctype="multipart/form-data">
+            <label for="image">Upload your handwritten query image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="image-response">
+            <!-- Extracted text and responses will be displayed here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
